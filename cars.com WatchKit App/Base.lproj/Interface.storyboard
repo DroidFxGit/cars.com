@@ -15,9 +15,7 @@
                                 <tableRow identifier="OptionMenuRow" id="XPy-rq-5Xr" customClass="OptionMenuRow" customModule="cars_com_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="sta-ol-hl6">
                                         <items>
-                                            <imageView width="38" alignment="left" id="HXe-Pt-djx">
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </imageView>
+                                            <imageView width="32" height="32" alignment="left" id="HXe-Pt-djx"/>
                                             <label width="78.5" height="49.5" alignment="left" text="Label" id="J5t-P7-2xe">
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="font" type="system" pointSize="12"/>

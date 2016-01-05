@@ -22,7 +22,7 @@ class InterfaceController: WKInterfaceController {
     let objects: [rowData] = [
         rowData(name: "Buy", imageName: "icon_buy"),
         rowData(name: "Sell & Trade", imageName: "icon_sell"),
-        rowData(name: "Service & Repair", imageName: "icon_service"),
+        rowData(name: "Service", imageName: "icon_service"),
         rowData(name: "News", imageName: "icon_news")
     ]
     
