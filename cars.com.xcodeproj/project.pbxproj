@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434B70FE1C3C5FC300F2CE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2620D2E1C3C337A00A96BC0 /* Assets.xcassets */; };
 		C2620CF91C3C337A00A96BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620CF81C3C337A00A96BC0 /* AppDelegate.swift */; };
 		C2620CFB1C3C337A00A96BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620CFA1C3C337A00A96BC0 /* ViewController.swift */; };
 		C2620CFE1C3C337A00A96BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2620CFC1C3C337A00A96BC0 /* Main.storyboard */; };
@@ -342,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2620D1B1C3C337A00A96BC0 /* Assets.xcassets in Resources */,
+				434B70FE1C3C5FC300F2CE5E /* Assets.xcassets in Resources */,
 				C2620D191C3C337A00A96BC0 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -639,6 +641,7 @@
 				C2620D351C3C337A00A96BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2620D371C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +650,7 @@
 				C2620D391C3C337A00A96BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2620D3B1C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +659,7 @@
 				C2620D3D1C3C337A00A96BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2620D3E1C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.comUITests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +668,7 @@
 				C2620D401C3C337A00A96BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
