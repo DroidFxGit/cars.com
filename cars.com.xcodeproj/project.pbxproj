@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2620CF91C3C337A00A96BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620CF81C3C337A00A96BC0 /* AppDelegate.swift */; };
+		C2620CFB1C3C337A00A96BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620CFA1C3C337A00A96BC0 /* ViewController.swift */; };
+		C2620CFE1C3C337A00A96BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2620CFC1C3C337A00A96BC0 /* Main.storyboard */; };
+		C2620D001C3C337A00A96BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2620CFF1C3C337A00A96BC0 /* Assets.xcassets */; };
+		C2620D031C3C337A00A96BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2620D011C3C337A00A96BC0 /* LaunchScreen.storyboard */; };
+		C2620D0E1C3C337A00A96BC0 /* cars_comUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D0D1C3C337A00A96BC0 /* cars_comUITests.swift */; };
+		C2620D131C3C337A00A96BC0 /* cars.com WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C2620D121C3C337A00A96BC0 /* cars.com WatchKit App.app */; };
+		C2620D191C3C337A00A96BC0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2620D171C3C337A00A96BC0 /* Interface.storyboard */; };
+		C2620D1B1C3C337A00A96BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2620D1A1C3C337A00A96BC0 /* Assets.xcassets */; };
+		C2620D221C3C337A00A96BC0 /* cars.com WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2620D211C3C337A00A96BC0 /* cars.com WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2620D291C3C337A00A96BC0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D281C3C337A00A96BC0 /* InterfaceController.swift */; };
+		C2620D2B1C3C337A00A96BC0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D2A1C3C337A00A96BC0 /* ExtensionDelegate.swift */; };
+		C2620D2D1C3C337A00A96BC0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D2C1C3C337A00A96BC0 /* NotificationController.swift */; };
+		C2620D2F1C3C337A00A96BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2620D2E1C3C337A00A96BC0 /* Assets.xcassets */; };
+		C2620D421C3C470D00A96BC0 /* OptionMenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D411C3C470D00A96BC0 /* OptionMenuRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2620D0A1C3C337A00A96BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2620CED1C3C337A00A96BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2620CF41C3C337A00A96BC0;
+			remoteInfo = cars.com;
+		};
+		C2620D141C3C337A00A96BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2620CED1C3C337A00A96BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2620D111C3C337A00A96BC0;
+			remoteInfo = "cars.com WatchKit App";
+		};
+		C2620D231C3C337A00A96BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2620CED1C3C337A00A96BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2620D201C3C337A00A96BC0;
+			remoteInfo = "cars.com WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2620D361C3C337A00A96BC0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C2620D221C3C337A00A96BC0 /* cars.com WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D3A1C3C337A00A96BC0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C2620D131C3C337A00A96BC0 /* cars.com WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2620CF51C3C337A00A96BC0 /* cars.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cars.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2620CF81C3C337A00A96BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2620CFA1C3C337A00A96BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2620CFD1C3C337A00A96BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2620CFF1C3C337A00A96BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2620D021C3C337A00A96BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2620D041C3C337A00A96BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2620D091C3C337A00A96BC0 /* cars.comUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cars.comUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2620D0D1C3C337A00A96BC0 /* cars_comUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cars_comUITests.swift; sourceTree = "<group>"; };
+		C2620D0F1C3C337A00A96BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2620D121C3C337A00A96BC0 /* cars.com WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cars.com WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2620D181C3C337A00A96BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C2620D1A1C3C337A00A96BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2620D1C1C3C337A00A96BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2620D211C3C337A00A96BC0 /* cars.com WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cars.com WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2620D271C3C337A00A96BC0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C2620D281C3C337A00A96BC0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C2620D2A1C3C337A00A96BC0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C2620D2C1C3C337A00A96BC0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C2620D2E1C3C337A00A96BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2620D301C3C337A00A96BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2620D411C3C470D00A96BC0 /* OptionMenuRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionMenuRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2620CF21C3C337A00A96BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D061C3C337A00A96BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D1E1C3C337A00A96BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2620CEC1C3C337A00A96BC0 = {
+			isa = PBXGroup;
+			children = (
+				C2620CF71C3C337A00A96BC0 /* cars.com */,
+				C2620D0C1C3C337A00A96BC0 /* cars.comUITests */,
+				C2620D161C3C337A00A96BC0 /* cars.com WatchKit App */,
+				C2620D251C3C337A00A96BC0 /* cars.com WatchKit Extension */,
+				C2620CF61C3C337A00A96BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2620CF61C3C337A00A96BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2620CF51C3C337A00A96BC0 /* cars.com.app */,
+				C2620D091C3C337A00A96BC0 /* cars.comUITests.xctest */,
+				C2620D121C3C337A00A96BC0 /* cars.com WatchKit App.app */,
+				C2620D211C3C337A00A96BC0 /* cars.com WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2620CF71C3C337A00A96BC0 /* cars.com */ = {
+			isa = PBXGroup;
+			children = (
+				C2620CF81C3C337A00A96BC0 /* AppDelegate.swift */,
+				C2620CFA1C3C337A00A96BC0 /* ViewController.swift */,
+				C2620CFC1C3C337A00A96BC0 /* Main.storyboard */,
+				C2620CFF1C3C337A00A96BC0 /* Assets.xcassets */,
+				C2620D011C3C337A00A96BC0 /* LaunchScreen.storyboard */,
+				C2620D041C3C337A00A96BC0 /* Info.plist */,
+			);
+			path = cars.com;
+			sourceTree = "<group>";
+		};
+		C2620D0C1C3C337A00A96BC0 /* cars.comUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2620D0D1C3C337A00A96BC0 /* cars_comUITests.swift */,
+				C2620D0F1C3C337A00A96BC0 /* Info.plist */,
+			);
+			path = cars.comUITests;
+			sourceTree = "<group>";
+		};
+		C2620D161C3C337A00A96BC0 /* cars.com WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C2620D171C3C337A00A96BC0 /* Interface.storyboard */,
+				C2620D1A1C3C337A00A96BC0 /* Assets.xcassets */,
+				C2620D1C1C3C337A00A96BC0 /* Info.plist */,
+			);
+			path = "cars.com WatchKit App";
+			sourceTree = "<group>";
+		};
+		C2620D251C3C337A00A96BC0 /* cars.com WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C2620D281C3C337A00A96BC0 /* InterfaceController.swift */,
+				C2620D411C3C470D00A96BC0 /* OptionMenuRow.swift */,
+				C2620D2A1C3C337A00A96BC0 /* ExtensionDelegate.swift */,
+				C2620D2C1C3C337A00A96BC0 /* NotificationController.swift */,
+				C2620D2E1C3C337A00A96BC0 /* Assets.xcassets */,
+				C2620D301C3C337A00A96BC0 /* Info.plist */,
+				C2620D261C3C337A00A96BC0 /* Supporting Files */,
+			);
+			path = "cars.com WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C2620D261C3C337A00A96BC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2620D271C3C337A00A96BC0 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2620CF41C3C337A00A96BC0 /* cars.com */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2620D3B1C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com" */;
+			buildPhases = (
+				C2620CF11C3C337A00A96BC0 /* Sources */,
+				C2620CF21C3C337A00A96BC0 /* Frameworks */,
+				C2620CF31C3C337A00A96BC0 /* Resources */,
+				C2620D3A1C3C337A00A96BC0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2620D151C3C337A00A96BC0 /* PBXTargetDependency */,
+			);
+			name = cars.com;
+			productName = cars.com;
+			productReference = C2620CF51C3C337A00A96BC0 /* cars.com.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2620D081C3C337A00A96BC0 /* cars.comUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2620D3E1C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.comUITests" */;
+			buildPhases = (
+				C2620D051C3C337A00A96BC0 /* Sources */,
+				C2620D061C3C337A00A96BC0 /* Frameworks */,
+				C2620D071C3C337A00A96BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2620D0B1C3C337A00A96BC0 /* PBXTargetDependency */,
+			);
+			name = cars.comUITests;
+			productName = cars.comUITests;
+			productReference = C2620D091C3C337A00A96BC0 /* cars.comUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C2620D111C3C337A00A96BC0 /* cars.com WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2620D371C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com WatchKit App" */;
+			buildPhases = (
+				C2620D101C3C337A00A96BC0 /* Resources */,
+				C2620D361C3C337A00A96BC0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2620D241C3C337A00A96BC0 /* PBXTargetDependency */,
+			);
+			name = "cars.com WatchKit App";
+			productName = "cars.com WatchKit App";
+			productReference = C2620D121C3C337A00A96BC0 /* cars.com WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C2620D201C3C337A00A96BC0 /* cars.com WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2620D331C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com WatchKit Extension" */;
+			buildPhases = (
+				C2620D1D1C3C337A00A96BC0 /* Sources */,
+				C2620D1E1C3C337A00A96BC0 /* Frameworks */,
+				C2620D1F1C3C337A00A96BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cars.com WatchKit Extension";
+			productName = "cars.com WatchKit Extension";
+			productReference = C2620D211C3C337A00A96BC0 /* cars.com WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2620CED1C3C337A00A96BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DroidFx;
+				TargetAttributes = {
+					C2620CF41C3C337A00A96BC0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C2620D081C3C337A00A96BC0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C2620CF41C3C337A00A96BC0;
+					};
+					C2620D111C3C337A00A96BC0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C2620D201C3C337A00A96BC0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C2620CF01C3C337A00A96BC0 /* Build configuration list for PBXProject "cars.com" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2620CEC1C3C337A00A96BC0;
+			productRefGroup = C2620CF61C3C337A00A96BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2620CF41C3C337A00A96BC0 /* cars.com */,
+				C2620D081C3C337A00A96BC0 /* cars.comUITests */,
+				C2620D111C3C337A00A96BC0 /* cars.com WatchKit App */,
+				C2620D201C3C337A00A96BC0 /* cars.com WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2620CF31C3C337A00A96BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2620D031C3C337A00A96BC0 /* LaunchScreen.storyboard in Resources */,
+				C2620D001C3C337A00A96BC0 /* Assets.xcassets in Resources */,
+				C2620CFE1C3C337A00A96BC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D071C3C337A00A96BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D101C3C337A00A96BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2620D1B1C3C337A00A96BC0 /* Assets.xcassets in Resources */,
+				C2620D191C3C337A00A96BC0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D1F1C3C337A00A96BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2620D2F1C3C337A00A96BC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2620CF11C3C337A00A96BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2620CFB1C3C337A00A96BC0 /* ViewController.swift in Sources */,
+				C2620CF91C3C337A00A96BC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D051C3C337A00A96BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2620D0E1C3C337A00A96BC0 /* cars_comUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2620D1D1C3C337A00A96BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2620D421C3C470D00A96BC0 /* OptionMenuRow.swift in Sources */,
+				C2620D2D1C3C337A00A96BC0 /* NotificationController.swift in Sources */,
+				C2620D2B1C3C337A00A96BC0 /* ExtensionDelegate.swift in Sources */,
+				C2620D291C3C337A00A96BC0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2620D0B1C3C337A00A96BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2620CF41C3C337A00A96BC0 /* cars.com */;
+			targetProxy = C2620D0A1C3C337A00A96BC0 /* PBXContainerItemProxy */;
+		};
+		C2620D151C3C337A00A96BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2620D111C3C337A00A96BC0 /* cars.com WatchKit App */;
+			targetProxy = C2620D141C3C337A00A96BC0 /* PBXContainerItemProxy */;
+		};
+		C2620D241C3C337A00A96BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2620D201C3C337A00A96BC0 /* cars.com WatchKit Extension */;
+			targetProxy = C2620D231C3C337A00A96BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2620CFC1C3C337A00A96BC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2620CFD1C3C337A00A96BC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2620D011C3C337A00A96BC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2620D021C3C337A00A96BC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C2620D171C3C337A00A96BC0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2620D181C3C337A00A96BC0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2620D311C3C337A00A96BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2620D321C3C337A00A96BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2620D341C3C337A00A96BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cars.com WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-com.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C2620D351C3C337A00A96BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cars.com WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-com.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C2620D381C3C337A00A96BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = cars_com_WatchKit_Extension;
+				INFOPLIST_FILE = "cars.com WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-com.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C2620D391C3C337A00A96BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = cars_com_WatchKit_Extension;
+				INFOPLIST_FILE = "cars.com WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-com.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C2620D3C1C3C337A00A96BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cars.com/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2620D3D1C3C337A00A96BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cars.com/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2620D3F1C3C337A00A96BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cars.comUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cars.com;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C2620D401C3C337A00A96BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cars.comUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fx.cars.app.demo.cars-comUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cars.com;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2620CF01C3C337A00A96BC0 /* Build configuration list for PBXProject "cars.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2620D311C3C337A00A96BC0 /* Debug */,
+				C2620D321C3C337A00A96BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2620D331C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2620D341C3C337A00A96BC0 /* Debug */,
+				C2620D351C3C337A00A96BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2620D371C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2620D381C3C337A00A96BC0 /* Debug */,
+				C2620D391C3C337A00A96BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2620D3B1C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2620D3C1C3C337A00A96BC0 /* Debug */,
+				C2620D3D1C3C337A00A96BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2620D3E1C3C337A00A96BC0 /* Build configuration list for PBXNativeTarget "cars.comUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2620D3F1C3C337A00A96BC0 /* Debug */,
+				C2620D401C3C337A00A96BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2620CED1C3C337A00A96BC0 /* Project object */;
+}
