@@ -23,6 +23,7 @@
 		C2620D2D1C3C337A00A96BC0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D2C1C3C337A00A96BC0 /* NotificationController.swift */; };
 		C2620D2F1C3C337A00A96BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2620D2E1C3C337A00A96BC0 /* Assets.xcassets */; };
 		C2620D421C3C470D00A96BC0 /* OptionMenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D411C3C470D00A96BC0 /* OptionMenuRow.swift */; };
+		C2620D441C3C8CBE00A96BC0 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2620D431C3C8CBE00A96BC0 /* SearchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		C2620D2E1C3C337A00A96BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2620D301C3C337A00A96BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2620D411C3C470D00A96BC0 /* OptionMenuRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionMenuRow.swift; sourceTree = "<group>"; };
+		C2620D431C3C8CBE00A96BC0 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			children = (
 				C2620D281C3C337A00A96BC0 /* InterfaceController.swift */,
 				C2620D411C3C470D00A96BC0 /* OptionMenuRow.swift */,
+				C2620D431C3C8CBE00A96BC0 /* SearchController.swift */,
 				C2620D2A1C3C337A00A96BC0 /* ExtensionDelegate.swift */,
 				C2620D2C1C3C337A00A96BC0 /* NotificationController.swift */,
 				C2620D2E1C3C337A00A96BC0 /* Assets.xcassets */,
@@ -381,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2620D421C3C470D00A96BC0 /* OptionMenuRow.swift in Sources */,
+				C2620D441C3C8CBE00A96BC0 /* SearchController.swift in Sources */,
 				C2620D2D1C3C337A00A96BC0 /* NotificationController.swift in Sources */,
 				C2620D2B1C3C337A00A96BC0 /* ExtensionDelegate.swift in Sources */,
 				C2620D291C3C337A00A96BC0 /* InterfaceController.swift in Sources */,

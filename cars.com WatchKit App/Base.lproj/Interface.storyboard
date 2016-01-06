@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Menu-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="cars_com_WatchKit_Extension">
+                <controller title="Menu" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="cars_com_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="WSY-Jq-jMt">
                             <items>
@@ -37,6 +37,33 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Options-->
+        <scene sceneID="U08-EM-wqN">
+            <objects>
+                <controller identifier="showBuyOptions" title="Options" id="0zL-gJ-i7D" customClass="SearchController" customModule="cars_com_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="New" id="pb8-xE-T3E">
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                        </button>
+                        <button width="1" alignment="left" title="Used" id="G27-OL-q9f"/>
+                        <button width="1" alignment="left" title="Pre-Owned" id="B7e-56-64a"/>
+                        <picker height="60" alignment="left" id="AXe-Tt-yLs"/>
+                        <picker height="60" alignment="left" id="pph-Fj-GUA"/>
+                        <picker height="60" alignment="left" id="LVq-no-Vh1"/>
+                        <picker height="60" alignment="left" id="NFp-mc-Urb"/>
+                        <button width="1" alignment="left" title="Search" id="egx-nl-k15">
+                            <color key="backgroundColor" red="0.40972845930000001" green="0.2046695083" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="buttonNew" destination="pb8-xE-T3E" id="4ry-pT-3ag"/>
+                        <outlet property="buttonPreOwned" destination="B7e-56-64a" id="7ka-s4-umz"/>
+                        <outlet property="buttonUsed" destination="G27-OL-q9f" id="9Cf-T5-MbS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="550" y="265.25"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

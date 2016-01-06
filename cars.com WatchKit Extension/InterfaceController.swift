@@ -14,6 +14,13 @@ struct rowData {
     let imageName: String
 }
 
+enum optionRow:Int {
+    case optionBuy = 0
+    case optionSellAndTrade = 1
+    case Service = 2
+    case News = 3
+}
+
 
 class InterfaceController: WKInterfaceController {
 
@@ -54,7 +61,30 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
-//        self.pushControllerWithName("showDetails", context: countries[rowIndex])
+        
+        var viewName:String = ""
+        let context:String = objects[rowIndex].name
+        
+        switch (rowIndex)
+        {
+        case 0:
+            viewName = "showBuyOptions"
+            break
+        case 1:
+            viewName = "showSellOptions"
+            break
+        case 2:
+            viewName = "showServiceOptions"
+            break
+        case 3:
+            viewName = "ShowNews"
+            break
+        default:
+            assert(false, "Bad access...")
+            break
+        }
+        
+        self.pushControllerWithName(viewName, context: context)
     }
 
 }
